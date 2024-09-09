@@ -22,6 +22,16 @@ print("Student age =", age2)
 print("Student city =", address2)
 
 
+// Creating a tuple
+var myTuple = (21, "Pune", "CSE")
+
+// Assigning a tuple to a set of constants
+let(age, _, branch) = myTuple
+
+// Accessing the values of tuples 
+print("Student age =", age)
+print("branch =", branch)
+
 //Assigning Names to Individual Values in a Tuple
 
 var newTuple = (name: "Anon", age: 30, office: "Dhaka")
